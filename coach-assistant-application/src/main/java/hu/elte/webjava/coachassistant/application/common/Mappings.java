@@ -1,0 +1,55 @@
+package hu.elte.webjava.coachassistant.application.common;
+
+public class Mappings {
+
+    public static final String PREFIX_CLIENT_DASHBOARD = "/client-dashboard";
+    public static final String PREFIX_COACH_DASHBOARD = "/coach-dashboard";
+    public static final String PREFIX_CLIENT_PROFILE = "/client-profile";
+    public static final String PREFIX_COACH_PROFILE = "/coach-profile";
+    public static final String PREFIX_CALORIE_DIARY = "/calorie-diary";
+    public static final String PREFIX_WEIGHT_DIARY = "/weight-diary";
+    public static final String PREFIX_TRAINING_PLAN = "/training-plan";
+    public static final String PREFIX_EXERCISE = "/exercise";
+    public static final String PREFIX_CLIENT_DETAILS = "/client-details";
+    public static final String ERROR = "/error";
+    public static final String HOME = "/home";
+    public static final String LOGIN = "/login";
+    public static final String GET_REGISTER = "/register";
+    public static final String POST_REGISTER = GET_REGISTER;
+    public static final String GET_CLIENT_DASHBOARD_INDEX = PREFIX_CLIENT_DASHBOARD + "/index";
+    public static final String GET_CLIENT_PROFILE_INDEX = PREFIX_CLIENT_PROFILE + "/index";
+    public static final String GET_CLIENT_PROFILE_EDIT = PREFIX_CLIENT_PROFILE + "/edit";
+    public static final String POST_CLIENT_PROFILE_EDIT = GET_CLIENT_PROFILE_EDIT;
+    public static final String GET_COACH_PROFILE_INDEX = PREFIX_COACH_PROFILE + "/index";
+    public static final String GET_COACH_PROFILE_EDIT = PREFIX_COACH_PROFILE + "/edit";
+    public static final String POST_COACH_PROFILE_EDIT = GET_COACH_PROFILE_EDIT;
+    public static final String GET_CLIENT_DETAILS_INDEX = PREFIX_CLIENT_DETAILS + "/index/{id}";
+    public static final String GET_COACH_DASHBOARD_INDEX = PREFIX_COACH_DASHBOARD + "/index";
+    public static final String GET_CALORIE_DIARY_INDEX = PREFIX_CALORIE_DIARY + "/index";
+    public static final String GET_CALORIE_DIARY_CREATE = PREFIX_CALORIE_DIARY + "/create";
+    public static final String POST_CALORIE_DIARY_CREATE = GET_CALORIE_DIARY_CREATE;
+    public static final String GET_CALORIE_DIARY_EDIT = PREFIX_CALORIE_DIARY + "/edit/{id}";
+    public static final String POST_CALORIE_DIARY_EDIT = PREFIX_CALORIE_DIARY + "/edit";
+    public static final String POST_CALORIE_DIARY_DELETE = PREFIX_CALORIE_DIARY + "/delete/{id}";
+    public static final String GET_WEIGHT_DIARY_INDEX = PREFIX_WEIGHT_DIARY + "/index";
+    public static final String GET_WEIGHT_DIARY_CREATE = PREFIX_WEIGHT_DIARY + "/create";
+    public static final String POST_WEIGHT_DIARY_CREATE = GET_WEIGHT_DIARY_CREATE;
+    public static final String GET_WEIGHT_DIARY_EDIT = PREFIX_WEIGHT_DIARY + "/edit/{id}";
+    public static final String POST_WEIGHT_DIARY_EDIT = PREFIX_WEIGHT_DIARY + "/edit";
+    public static final String POST_WEIGHT_DIARY_DELETE = PREFIX_WEIGHT_DIARY + "/delete/{id}";
+    public static final String GET_TRAINING_PLAN_INDEX = PREFIX_TRAINING_PLAN + "/index";
+    public static final String GET_TRAINING_PLAN_DETAILS = PREFIX_TRAINING_PLAN + "/details/{id}";
+    public static final String GET_TRAINING_PLAN_CREATE = PREFIX_TRAINING_PLAN + "/create";
+    public static final String POST_TRAINING_PLAN_CREATE = GET_TRAINING_PLAN_CREATE;
+    public static final String GET_TRAINING_PLAN_EDIT = PREFIX_TRAINING_PLAN + "/edit/{id}";
+    public static final String POST_TRAINING_PLAN_EDIT = PREFIX_TRAINING_PLAN + "/edit";
+    public static final String POST_TRAINING_PLAN_DELETE = PREFIX_TRAINING_PLAN + "/delete/{id}";
+    public static final String POST_TRAINING_PLAN_SUBSCRIBE = PREFIX_TRAINING_PLAN + "/subscribe/{id}";
+    public static final String POST_TRAINING_PLAN_UNSUBSCRIBE = PREFIX_TRAINING_PLAN + "/unsubscribe";
+    public static final String POST_TRAINING_PLAN_CHANGE_SUBSCRIPTION = PREFIX_TRAINING_PLAN + "/change-subscription/{id}";
+    public static final String GET_EXERCISE_CREATE = PREFIX_EXERCISE + "/create/{trainingPlanId}";
+    public static final String GET_EXERCISE_EDIT = PREFIX_EXERCISE + "/edit/{id}";
+    public static final String POST_EXERCISE_CREATE = PREFIX_EXERCISE + "/create";
+    public static final String POST_EXERCISE_EDIT = PREFIX_EXERCISE + "/edit";
+    public static final String POST_EXERCISE_DELETE = PREFIX_EXERCISE + "/delete/{id}";
+}

@@ -1,0 +1,4 @@
+rootProject.name = 'elte-fsz-22-java-coach-assistant'
+
+include 'coach-assistant-application'
+include 'coach-assistant-domain'
